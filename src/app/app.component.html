@@ -1,0 +1,23 @@
+<body>
+  <div class="container">
+      <div class="card" *ngFor="let item of apiData">
+          <div class="imgBx">
+              <img src="https://cdn-icons-png.flaticon.com/512/1160/1160358.png" />
+          </div>
+          <div class="content">
+              <div class="details">
+                  
+                  <p>User Id : {{item.userId}}</p>
+                  <p>ID : {{item.id}}</p>
+                  <p>Title :{{item.title}}</p>
+                  <p>Completed : {{item.completed}}</p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+
+
+
+<button mat-button color="primary">Primary</button>
